@@ -93,5 +93,19 @@
         "key": "ctrl+shift+up",
         "command": "editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "enter",
+        "command": "acceptSelectedSuggestion",
+        "when": "editorTextFocus && suggestWidgetVisible"
     }
 ]
