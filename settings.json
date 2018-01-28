@@ -1,44 +1,51 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Iosevka Medium",
+    "editor.fontFamily": "IBM Plex Mono Medium",
     "editor.fontLigatures": true,
     "editor.fontWeight": "normal",
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.tabSize": 4,
+    "telemetry.enableTelemetry": false,
     "files.trimTrailingWhitespace": true,
     "[go]": {
         "editor.insertSpaces": false,
         "editor.tabSize": 8
     },
-    "[elixir]": {
-        "editor.insertSpaces": true,
-        "editor.tabSize": 2,
-    },
     "editor.cursorStyle": "line",
     "editor.renderLineHighlight": "line",
-    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "Iosevka Term Medium",
     "editor.mouseWheelZoom": true,
     "editor.acceptSuggestionOnEnter": "on",
     "editor.quickSuggestions": true,
     "editor.parameterHints": true,
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 20000,
+    "files.autoSaveDelay": 1000,
     "window.zoomLevel": 0,
     "editor.autoClosingBrackets": true,
     "window.menuBarVisibility": "toggle",
     "editor.wordWrap": "on",
-    "workbench.iconTheme": "material-icon-theme",
-    /*"workbench.colorCustomizations": {
-        "editorCursor.foreground": "#FFFFFF"
-    },*/
+    "workbench.iconTheme": "file-icons-colourless",
+    "editor.smoothScrolling": true,
     // Controls if the minimap is shown
     "editor.minimap.enabled": false,
     // Render the actual characters on a line (as opposed to color blocks)
     "editor.minimap.renderCharacters": false,
-    "workbench.colorTheme": "One Dark Theme",
+    "editor.tokenColorCustomizations": {
+        "comments": "#808080",
+    },
+    "workbench.colorCustomizations": {
+        "editor.foreground": "#000000"
+    },
     //vscode-go spcial
     "go.useCodeSnippetsOnFunctionSuggest": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "material-icon-theme.showUpdateMessage": false,
+    "extensions.ignoreRecommendations": false,
+    "workbench.colorTheme": "Go - Sources",
+    "python.formatting.provider": "yapf",
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "/home/michal/python/qt/pyqtvenv/bin/python"
     //markdown
-
 }
