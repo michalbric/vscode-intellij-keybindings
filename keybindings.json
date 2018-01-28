@@ -107,5 +107,24 @@
         "key": "enter",
         "command": "acceptSelectedSuggestion",
         "when": "editorTextFocus && suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+)",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "f8",
+        "command": "-editor.action.marker.next",
+        "when": "editorFocus && !editorReadonly"
+    },
+    {
+        "key": "f9",
+        "command": "workbench.action.debug.continue",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "f5",
+        "command": "-workbench.action.debug.continue",
+        "when": "inDebugMode"
     }
 ]
