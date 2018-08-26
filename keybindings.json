@@ -75,6 +75,10 @@
         "when": "editorTextFocus"
     },
     {
+        "key": "ctrl+q",
+        "command": "-workbench.action.quit"
+    },
+    {
         "key": "shift+f6",
         "command": "editor.action.rename",
         "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
@@ -109,10 +113,6 @@
         "when": "editorTextFocus && suggestWidgetVisible"
     },
     {
-        "key": "ctrl+)",
-        "command": "-workbench.action.quit"
-    },
-    {
         "key": "f8",
         "command": "-editor.action.marker.next",
         "when": "editorFocus && !editorReadonly"
@@ -126,5 +126,13 @@
         "key": "f5",
         "command": "-workbench.action.debug.continue",
         "when": "inDebugMode"
-    }
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "workbench.action.openSettings"
+    },
 ]
