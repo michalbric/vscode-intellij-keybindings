@@ -1,51 +1,87 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "IBM Plex Mono Medium",
+    "editor.fontFamily": "ibm plex mono text",
     "editor.fontLigatures": true,
-    "editor.fontWeight": "normal",
-    "editor.fontSize": 14,
+    "editor.fontSize": 18,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 0,
     "editor.tabSize": 4,
+    "editor.cursorStyle": "block",
     "telemetry.enableTelemetry": false,
     "files.trimTrailingWhitespace": true,
     "[go]": {
         "editor.insertSpaces": false,
-        "editor.tabSize": 8
+        "editor.tabSize": 4
     },
-    "editor.cursorStyle": "line",
+    "[clojure]": {
+        "editor.tabSize": 2
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "[latex]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
     "editor.renderLineHighlight": "line",
-    "terminal.integrated.fontSize": 14,
+    "editor.renderIndentGuides": false,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontFamily": "Iosevka Term Medium",
-    "editor.mouseWheelZoom": true,
     "editor.acceptSuggestionOnEnter": "on",
     "editor.quickSuggestions": true,
     "editor.parameterHints": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
-    "window.zoomLevel": 0,
     "editor.autoClosingBrackets": true,
     "window.menuBarVisibility": "toggle",
     "editor.wordWrap": "on",
-    "workbench.iconTheme": "file-icons-colourless",
+    "workbench.iconTheme": "file-icons",
     "editor.smoothScrolling": true,
     // Controls if the minimap is shown
     "editor.minimap.enabled": false,
     // Render the actual characters on a line (as opposed to color blocks)
     "editor.minimap.renderCharacters": false,
-    "editor.tokenColorCustomizations": {
-        "comments": "#808080",
-    },
-    "workbench.colorCustomizations": {
-        "editor.foreground": "#000000"
-    },
+    // "editor.tokenColorCustomizations": {
+    //     "comments": "#808080",
+    // },
+    // "workbench.colorCustomizations": {
+    //     "editor.foreground": "#000000"
+    // },
     //vscode-go spcial
     "go.useCodeSnippetsOnFunctionSuggest": false,
-    "editor.multiCursorModifier": "ctrlCmd",
-    "material-icon-theme.showUpdateMessage": false,
+    "go.lintTool": "megacheck",
+    "editor.multiCursorModifier": "alt",
     "extensions.ignoreRecommendations": false,
-    "workbench.colorTheme": "Go - Sources",
-    "python.formatting.provider": "yapf",
-    "python.linting.flake8Enabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.pythonPath": "/home/michal/python/qt/pyqtvenv/bin/python"
-    //markdown
+    "workbench.colorTheme": "Darcula Extended",
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "handlebars",
+        "jade",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pub",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
 }
