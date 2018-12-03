@@ -1,12 +1,14 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "iosevka medium",
     "editor.fontLigatures": true,
+    "editor.detectIndentation": false,
+    "editor.fontWeight": "400",
+    "editor.lineHeight": 0,
     "editor.fontSize": 18,
-    "editor.fontWeight": "500",
-    //"editor.lineHeight": 24,
     "editor.tabSize": 4,
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "block",
+    "editor.renderWhitespace": "boundary",
     "telemetry.enableTelemetry": false,
     "files.trimTrailingWhitespace": true,
     "[go]": {
@@ -28,6 +30,15 @@
     "[html]": {
         "editor.tabSize": 2
     },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[vcl]": {
+        "editor.tabSize": 4
+    },
+    "[c]": {
+        "editor.tabSize": 4
+    },
     "editor.renderLineHighlight": "line",
     "editor.renderIndentGuides": false,
     "terminal.integrated.fontSize": 16,
@@ -43,6 +54,8 @@
     "editor.smoothScrolling": true,
     // Controls if the minimap is shown
     "editor.minimap.enabled": false,
+    // Render the actual characters on a line (as opposed to color blocks)
+    "editor.minimap.renderCharacters": false,
     // "editor.tokenColorCustomizations": {
     //     "comments": "#808080",
     // },
@@ -54,33 +67,11 @@
     "go.lintTool": "megacheck",
     "editor.multiCursorModifier": "alt",
     "extensions.ignoreRecommendations": false,
-    "workbench.colorTheme": "Mariana Nord",
-    "cSpell.enabledLanguageIds": [
-        "asciidoc",
-        "c",
-        "cpp",
-        "csharp",
-        "css",
-        "handlebars",
-        "jade",
-        "javascript",
-        "javascriptreact",
-        "json",
-        "latex",
-        "less",
-        "markdown",
-        "php",
-        "plaintext",
-        "pub",
-        "python",
-        "restructuredtext",
-        "rust",
-        "scss",
-        "text",
-        "typescript",
-        "typescriptreact",
-        "yml"
-    ],
+    "workbench.startupEditor": "newUntitledFile",
+    "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Mariana Pro (Warm)",
     "editor.minimap.renderCharacters": false,
     "breadcrumbs.enabled": true,
     "workbench.activityBar.visible": true,
