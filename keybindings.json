@@ -57,11 +57,11 @@
         "when": "inDebugMode"
     },
     {
-        "key": "ctrl+alt+Left",
+        "key": "alt+Left",
         "command": "workbench.action.navigateBack"
     },
     {
-        "key": "ctrl+alt+Right",
+        "key": "alt+Right",
         "command": "workbench.action.navigateForward"
     },
     {
